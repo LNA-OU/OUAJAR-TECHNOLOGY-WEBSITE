@@ -3,19 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Web de Photographie</title>
+  <title>Site Web Photographie - Loubna Ouajar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #f6f4f1;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #5e5243;
+      font-weight: bold;
+    }
+    section {
+      padding: 80px 20px;
+      min-height: 100vh;
+    }
+    .hero {
+      background-color: #fdfaf7;
+    }
+    .about {
+      background-color: #f3eee9;
+    }
+    .services {
+      background-color: #fdf9f4;
+    }
+    .contact {
+      background-color: #f3f0ed;
+    }
+    footer {
+      background-color: #ddd5cb;
+      text-align: center;
+      padding: 20px;
+      color: #5e5243;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; text-align: center; padding: 20px;">
-  <div style="position: relative; width: 100%; height: 0; padding-top: 56.2225%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
-    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-      src="https://www.canva.com/design/DAGNj9rjZnI/nOxerjwuk1XIwxzfKkYixw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-    </iframe>
-  </div>
-  <p>
-    <a href="https://www.canva.com/design/DAGNj9rjZnI/nOxerjwuk1XIwxzfKkYixw/view?utm_content=DAGNj9rjZnI&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
-       target="_blank" rel="noopener">
-      Site Web de Photographie Générale et Éditoriale Organisé Beige et Marron
-    </a> par Loubna OUAJAR
-  </p>
+<body>
+
+  <nav>
+    <a href="#hero">Accueil</a>
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="hero">
+    <h1>Photographie Éditoriale & Générale</h1>
+    <p>Bienvenue sur le site de Loubna Ouajar, une photographe passionnée par la lumière, les émotions et l'authenticité.</p>
+  </section>
+
+  <section class="about" id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis spécialisée en photographie artistique et éditoriale. Chaque projet est une histoire, chaque cliché une émotion.</p>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Services proposés</h2>
+    <ul>
+      <li>Portraits professionnels</li>
+      <li>Séances lifestyle</li>
+      <li>Éditorial mode</li>
+      <li>Photographie d’événements</li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>📧 contact@loubnaouajar.com</p>
+    <p>📍 Basée au Maroc, disponible à l'international</p>
+    <p><a href="https://www.canva.com/design/DAGNj9rjZnI/nOxerjwuk1XIwxzfKkYixw/view?utm_content=DAGNj9rjZnI&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank">Voir le portfolio Canva</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Loubna Ouajar – Tous droits réservés
+  </footer>
+
 </body>
 </html>
